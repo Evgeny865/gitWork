@@ -1,19 +1,8 @@
 package Race;
 
-public class Track {
+public  class Track {
 
-    int finishRacers;
+    protected static int finishRacers = 0;
 
-    public Track(){
-        this.finishRacers = 0;
-    }
-
-    public synchronized void setFinishRacers(){
-        finishRacers++;
-    }
-
-    public synchronized int getFinishRacers(){
-        return finishRacers;
-    }
 
 }
