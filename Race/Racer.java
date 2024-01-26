@@ -26,7 +26,7 @@ public class Racer implements Runnable {
         return speed >= 1 && speed <= 10;
 
     }
-    private void runMeters(int meters) throws InterruptedException {
+    private void runMeters(int meters){
             System.out.println("Runner: " + id + " ran " + meters + " meters" + Thread.currentThread());
 
 
